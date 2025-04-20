@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "松原苏打的"
+  text: "刷题本"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 打开刷题本~
+      link: /LeetCode/1480. 一维数组的动态和.md
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 其他
+      link:
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title:
+    details:
+  - title:
+    details:
+  - title:
+    details:
 ---
 

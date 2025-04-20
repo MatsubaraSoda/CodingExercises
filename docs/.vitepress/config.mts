@@ -2,27 +2,27 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  lang: 'zh-CN',
+  title: "松原苏打的刷题本",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: 'LeetCode', link: 'LeetCode/1480. 一维数组的动态和.md' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'LeetCode',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '1480. 一维数组的动态和', link: 'LeetCode/1480. 一维数组的动态和.md' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/MatsubaraSoda/CodingExercises' }
     ]
   }
 })
